@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #1E3A5F;
+  --navy-light: #2A4A73;
+  --teal: #0D7377;
+  --teal-light: #10908F;
+  --teal-dark: #0A5C5F;
+  --coral: #A63A3A;
+  --amber: #F59E0B;
+  --bg-light: #F0F4F8;
+  --bg-dark: #0F1729;
+  --surface-light: #FFFFFF;
+  --surface-dark: #1A2332;
+  --text-light: #1A202C;
+  --text-dark: #E2E8F0;
+  --border-light: #E2E8F0;
+  --border-dark: #2D3748;
+}
+
+.dark {
+  --bg: var(--bg-dark);
+  --surface: var(--surface-dark);
+  --text: var(--text-dark);
+  --border: var(--border-dark);
+}
